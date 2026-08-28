@@ -1,7 +1,5 @@
 # Nvidia Stock Price Monte Carlo Simulation
 
-# Nvidia Stock Price Monte Carlo Simulation
-
 I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to project Nvidia's potential stock price paths over a 1-year period (252 trading days). The model runs 10,000 independent simulation paths powered by random shocks and historical volatility calculated from the past 5 years of stock data.
 
 **How I Built It**
@@ -20,10 +18,8 @@ I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to projec
 * **Mean Return:** 0.23%
 
 **Visual Results**
-<img src="https://github.com/user-attachments/assets/35d8511f-e9ee-4c93-8b7a-3719f1434832" width="100%"/>
 <img width="1200" height="500" alt="MonteCarloPlot" src="https://github.com/user-attachments/assets/35d8511f-e9ee-4c93-8b7a-3719f1434832" />
 
-Limitations:
-
-The model assumes that the returns and volatility from the last 5 years is representative of future market conditions.
-The GBM model is useful for simulating possible prices, but it simplifies how real markets actually behave
+**Limitations**
+* **Historical Bias:** The model assumes that the returns and volatility over the last 5 years will continue, which may not hold true as market conditions change.
+* **Simplified Market Dynamics:** While Geometric Brownian Motion is useful for generating price scenarios, it simplifies real-world behaviour by ignoring sudden market shocks, volatility clustering, and extreme tail risks.
