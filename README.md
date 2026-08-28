@@ -6,7 +6,7 @@ I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to projec
 * **Data Prep:** Imported 5 years of daily price data into Pandas, converted the dates to `datetime` format for chronological sorting, and dropped duplicates.
 * **Returns & Risk:** Used `.pct_change()` to get daily returns, dropped the initial `NaN` value, and calculated the mean daily return and standard deviation.
 * **Running the Model:** Created a 252 x 10,000 matrix of random normal distributions ($\mu=0, \sigma=1$) and plugged them into the GBM formula to generate future price paths.
-* **Plotting:** Visualized both the individual trajectories and the final price distribution using Matplotlib.
+* **Plotting:** Visualised both the individual trajectories and the final price distribution using Matplotlib.
 
 **Key Results**
 * **Starting Price:** $214.72
@@ -21,5 +21,6 @@ I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to projec
 <img width="1200" height="500" alt="MonteCarloPlot" src="https://github.com/user-attachments/assets/35d8511f-e9ee-4c93-8b7a-3719f1434832" />
 
 **Limitations**
-* **Historical Bias:** The model assumes that the returns and volatility over the last 5 years will continue, which may not hold true as market conditions change.
-* **Simplified Market Dynamics:** While Geometric Brownian Motion is useful for generating price scenarios, it simplifies real-world behaviour by ignoring sudden market shocks, volatility clustering, and extreme tail risks.
+* **Historical Bias:** The model assumes that the returns and volatility from the last 5 years is representative of future market conditions.
+* **Simplified Market Dynamics:** The GBM model is useful for simulating possible prices, but it simplifies how real markets actually behave .
+
