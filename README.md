@@ -24,8 +24,6 @@ Median simulated final price:	$215.02333449586396
 Probability of loss: 48.05%
 Mean simulated return: 0.2272424604498876%
 
-# 50 path scatter plot to avoid confusing results
-# Histogram showing frequency of paths that predicted a certain price
 <img width="1200" height="500" alt="MonteCarloPlot" src="https://github.com/user-attachments/assets/35d8511f-e9ee-4c93-8b7a-3719f1434832" />
 
 Limitations:
