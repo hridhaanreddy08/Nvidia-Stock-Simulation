@@ -18,7 +18,7 @@ I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to projec
 * **Mean Return:** %
 
 **Visual Results**
-<img width="1200" height="500" alt="MonteCarloPlot" src="https://github.com/user-attachments/assets/35d8511f-e9ee-4c93-8b7a-3719f1434832" />
+
 
 **Limitations**
 * **Historical Bias:** The model assumes that the returns and volatility from the last 5 years is representative of future market conditions.
