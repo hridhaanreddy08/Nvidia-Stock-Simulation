@@ -10,15 +10,15 @@ I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to projec
 
 **Key Results**
 * **Starting Price:** $214.72
-* **Mean Final Price:** $
-* **Median Final Price:** $
-* **5th Percentile:** $
-* **95th Percentile:** $
-* **Probability of Loss:** %
-* **Mean Return:** %
+* **Mean Final Price:** $386.24
+* **Median Final Price:** $337.28
+* **5th Percentile:** $143.43
+* **95th Percentile:** $795.09
+* **Probability of Loss:** 18.72%
+* **Mean Return:** 79.88%
 
 **Visual Results**
-
+<img width="1197" height="499" alt="matplotlib2" src="https://github.com/user-attachments/assets/f2bb1206-4c2f-47c5-bae3-6d7a56722a2b" />
 
 **Limitations**
 * **Historical Bias:** The model assumes that the returns and volatility from the last 5 years is representative of future market conditions.
