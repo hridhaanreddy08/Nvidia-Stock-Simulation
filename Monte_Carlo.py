@@ -21,7 +21,7 @@ nvda.sort_values(by = "Date", ascending = True, inplace = True)
 
 # Remove duplicate dates
 
-nvda.drop_duplicates(subset="Date", inplace = True) # modify dataframe rather than returning new one
+nvda.drop_duplicates(subset="Date", inplace = True) # Inplace means we don't have to reassign changes
 
 # Calculate daily percentage return
 
