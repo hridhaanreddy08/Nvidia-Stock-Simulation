@@ -29,8 +29,8 @@ nvda["Daily % Return"] = nvda["Adj Close"].pct_change()
 
 nvda.dropna(subset = ["Daily % Return"], inplace = True) # get rid of NaN from day 1
 
-mean_return = nvda["Daily % Return"].mean()
-volatillity = nvda["Daily % Return"].std()
+mean_return = nvda["Daily Return"].mean()
+volatillity = nvda["Daily Return"].std()
 current_price = nvda["Adj Close"].iloc[-1]
 
 # Unpredictable events causing sudden changes in stock price
