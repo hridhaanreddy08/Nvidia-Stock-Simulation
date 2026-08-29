@@ -10,12 +10,12 @@ I built a Monte Carlo simulation using Geometric Brownian Motion (GBM) to projec
 
 **Key Results**
 * **Starting Price:** $214.72
-* **Mean Final Price:** $215.21
-* **Median Final Price:** $215.02
-* **5th Percentile:** $203.88
-* **95th Percentile:** $226.85
-* **Probability of Loss:** 48.05%
-* **Mean Return:** 0.23%
+* **Mean Final Price:** $
+* **Median Final Price:** $
+* **5th Percentile:** $
+* **95th Percentile:** $
+* **Probability of Loss:** %
+* **Mean Return:** %
 
 **Visual Results**
 <img width="1200" height="500" alt="MonteCarloPlot" src="https://github.com/user-attachments/assets/35d8511f-e9ee-4c93-8b7a-3719f1434832" />
