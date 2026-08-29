@@ -42,7 +42,7 @@ matrix[0] = current_price # Setting Day 0 to current price
 
 # Geometric brownian formula - Separate formula into sections
 
-dt = 1/252
+dt = 1
 
 # Section 1 
 s1 = mean_return - (0.5 * (volatillity**2))
