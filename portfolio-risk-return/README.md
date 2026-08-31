@@ -3,7 +3,7 @@
 ## Overview
 
 This project investigates the relationship between risk and return across
-different portfolios. The assets used were JPM, MSFT, XOM and S&P500
+different portfolios. The assets used were JPM, MSFT, XOM and AMZN
 
 ## Methodology
 
@@ -41,13 +41,16 @@ Portfolio volatility was then calculated by taking the square root of
 variance and annualising using √252.
 
 ## Results
-
-<img width="628" height="467" alt="Screenshot 2026-08-31 at 12 06 02" src="https://github.com/user-attachments/assets/1015f20c-57b2-49e1-a4f3-55b43e7f8b0c" />
-<img width="530" height="138" alt="Screenshot 2026-08-31 at 12 05 44" src="https://github.com/user-attachments/assets/03a7dab2-ef3e-4b1f-8174-a12a6ddeb934" />
-<img width="470" height="112" alt="Screenshot 2026-08-31 at 12 05 16" src="https://github.com/user-attachments/assets/bef4c9ba-c99d-4ebd-b225-045f2a97b758" />
+<img width="623" height="466" alt="Screenshot 2026-08-31 at 14 29 51" src="https://github.com/user-attachments/assets/b18fb42c-6270-4888-b949-cc362cdbce23" />
+<img width="556" height="131" alt="Screenshot 2026-08-31 at 14 29 37" src="https://github.com/user-attachments/assets/255e3147-d531-4d97-8c79-64b1aa2d25c5" />
 
 ## Key Findings
 
-Highest return : Portfolio 5 (26.94%)
-Lowest risk: Portfolio 2 (18.57%)
+Highest return: Portfolio 5 had the highest return (21.6%), but also the second highest risk (21.4%), showing the trade-off between risk and reward.
+
+Lowest risk: Portfolio 2 had lowest risk (19.8%), showing benefits of equal asset allocation.
+
+The results did not show a perfectly linear relationship between risk and return, with some portfolios achieving higher returns without proportionally higher volatility.
+
+The correlation matrix showed that the assets did not move identically, meaning that combining them could reduce portfolio-specific risk compared with holding a single asset.
 
