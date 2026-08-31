@@ -53,5 +53,5 @@ Lowest risk: Portfolio 2 had lowest risk (19.8%), showing benefits of equal asse
 
 The results did not show a perfectly linear relationship between risk and return, with some portfolios achieving higher returns without proportionally higher volatility.
 
-The correlation matrix showed that the assets did not move identically, meaning that combining them could reduce portfolio-specific risk compared with holding a single asset.
+The assets had different correlations, meaning they did not always move together. Combining them therefore provided potential diversification benefits by reducing reliance on the performance of individual assets.
 
