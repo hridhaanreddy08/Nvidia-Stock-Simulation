@@ -40,9 +40,10 @@ weights:
 Portfolio volatility was then calculated by taking the square root of
 variance and annualising using √252.
 
-## Results
+## Results (Risk vs Return Graph, Portfolio summary, Correlation matrix)
 <img width="623" height="466" alt="Screenshot 2026-08-31 at 14 29 51" src="https://github.com/user-attachments/assets/b18fb42c-6270-4888-b949-cc362cdbce23" />
 <img width="556" height="131" alt="Screenshot 2026-08-31 at 14 29 37" src="https://github.com/user-attachments/assets/255e3147-d531-4d97-8c79-64b1aa2d25c5" />
+<img width="889" height="119" alt="Screenshot 2026-08-31 at 14 51 34" src="https://github.com/user-attachments/assets/799ade48-6fe5-4719-8127-d78d3307ef86" />
 
 ## Key Findings
 
