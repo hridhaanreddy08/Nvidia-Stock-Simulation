@@ -122,6 +122,7 @@ portfolios_df = pd.DataFrame(portfolio_results)
 
 # Outputting other results
 print(summary_df)
+pd.set_option("display.max_columns", None)
 print(correlation_matrix)
 print(portfolios_df)
 
