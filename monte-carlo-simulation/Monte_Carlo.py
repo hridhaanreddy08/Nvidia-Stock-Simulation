@@ -58,7 +58,7 @@ s4 = np.exp(s2 + s3)
 
 # Section 5
 for i in range(0,252):
-    matrix[i + 1] = matrix[i]* s4[i] # # Previous simulated prices × growth factors = next simulated prices
+    matrix[i + 1] = matrix[i]* s4[i] # Previous simulated prices × growth factors = next simulated prices
 
 final_prices = matrix[-1, :]
 
